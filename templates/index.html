@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>convert</title>
+	<link rel="stylesheet" type="text/css" href="static/convert.css">
+</head>
+<body>
+	
+	<div id="div1">
+		<h1>viewincode:covert to .pdf, .docx, .img</h1>
+
+		<form method="POST" enctype="multipart/form-data">
+	
+<table>
+	<tr>
+		<td>Convert from: </td> <td> <select name="convert_from">
+			<option value="word">WORD</option>
+			<option value="excel">PDF</option>
+			<option value="json">JPG</option>
+		</select> </td>
+
+		<td> To: </td> <td> <select name="convert_from">
+			<option value="PDF">PDF</option>
+			<option value="word">WORD</option>
+			<option value="word">JPG</option>
+		</select> </td>
+	</tr>
+
+	<tr>
+		<td>Then Select The file to Convert:</td>
+		<td>
+			<input type="file" name="file_to_convert">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<button type="submit">
+				CONVERT
+			</button>
+		</td>
+	</tr>
+</table>
+<div id="rits">All Rights Reserved viewincode 2024&copy;</div>
+
+		
+		</div>
+		
+</body>
+</html>

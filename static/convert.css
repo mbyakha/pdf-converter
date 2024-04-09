@@ -1,0 +1,27 @@
+body{
+	padding: 0;
+	background-color: #f0ffff;
+
+}
+
+h1{
+	height:6vh;
+	width: 100%;
+	color: #f3f3f3;
+	background-color: black;
+	text-align: center;
+
+
+}
+
+#div1{
+	width: 50%;
+	height: 40vh;
+	background-color: #1e90ff;
+	margin: 200px;
+	border-radius: 4px;
+}
+#rits{
+	margin-top: 35px;
+	padding: 5px;
+}
